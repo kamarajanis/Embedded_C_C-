@@ -7,5 +7,5 @@ int main()
 	printf("Enter a character\n");
 	scanf("%c",&c);
 	printf("%d\n",c); 
-
+	printf("Checking VS Code Git");
 }
