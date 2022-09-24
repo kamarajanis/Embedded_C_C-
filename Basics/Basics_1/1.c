@@ -20,6 +20,7 @@ int main()
 	int i;
 	for(i=0;i<n;i++)
 	{
+		printf("Enter the Element ....... \n");
 		scanf("%d",&a[i]);
 	}
 	
@@ -30,6 +31,6 @@ int main()
 	//it will loop through the array and print one by one
 	for(i=0;i<n;i++)
 	{
-		printf("%d",a[i]);
+		printf("%d",a[i]);  // %d is format specifier for the integer
 	}	
 }
